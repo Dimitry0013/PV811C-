@@ -53,6 +53,7 @@ BOOL CALLBACK DlgProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 					SetDlgItemText(hwnd, IDC_EDIT1, sz_invitation);
 				}
 			}
+			//I think this two if-s may be replaced by switch statement))
 		}
 		break;
 		case IDC_COPY:
